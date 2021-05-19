@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    background-color: white;
+    width: 100%;
+}
+@media (min-width:576px) {
+    .container {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 992px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1366px
+    }
+}
+
+nav{
+    background-image: linear-gradient(103deg, #E50984, #E38349);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+nav ul li a{
+    margin-right: .6rem;
+}
+
+.navbar{
+    z-index: 1030;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #FFE200;
+    border-bottom: 2px solid #FFE200;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link.active{
+    border-bottom: 2px solid white;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link.active:hover{
+    border-bottom: 2px solid #FFE200;
+}
+
+@media (max-width:991.98px){
+    .navbar-collapse{
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        right: 1rem;
+        background-color: black;
+        border-radius: .5rem;
+        transition: all .2s ease-in-out;
+    }
+    .navbar-collapse.collapsing{
+        opacity: 0;
+        transform: scale(.9);
+    }
+    
+    .navbar .collapse .navbar-nav .nav-item .nav-link{
+        color: #EE2479;
+        border: none;
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+        color: #FFE200;
+        border:none;
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link.active{
+        border: none;
+    }
+    .navbar .collapse .navbar-nav .nav-item .nav-link.active:hover{
+        border: none;
+    }
+
+    .navbar .collapse .navbar-toggler{
+        color: #EE2479;
+    }
+    .navbar .collapse .navbar-toggler:hover{
+        color: #FFE200;
+    }
+    .collapse .navbar-nav{
+        position: relative;
+        left: 1rem;
+    }
+    .collapse .lift{
+        position: relative;
+        left: 1rem;
+        bottom: .2rem;
+    }
+}
+
+.collapse .navbar-toggler{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+}
+
+.device-1{
+    position: relative;
+    left: 9rem;
+    top: 1rem;
+}
+
+.device{
+    position: absolute;
+    z-index: 1;
+}
+
+@media (max-width:768px){
+    .device{
+        width: 60%;
+    }
+    .device-1{
+        width: 60%;
+    }
+}
+
+@media (max-width:768px){
+    .icon{
+        width: 95%;
+    }
+}
+
+.contact{
+    background-color: #E5098411;
+}
+.btn{
+    background-image: linear-gradient(103deg, #E50984, #E38349);
+    border-radius: .3rem;
+}
+
+
+.footer{
+    background-color: black;
+}
+
+.footer-mail{
+    color: #637381;
+}
+.footer-mail:hover{
+    color: #637381;
+}
+
+footer ul li a{
+    color: #637381;
+}
+
+footer ul li a:hover{
+    color: #637381;
+    border-bottom: 1px solid #637381;
+}
+
+.border-text{
+    color: #637381;
+    font-size: .8rem;
+}
+
+.font-text{
+    color: #5B6C94;
+}
+
+.text-font{
+    color: #EE2479;
+}
+
+
+
+
+
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+@media (min-width:768px){
+    .step{
+        position: relative;
+        top: 18rem;
+    }
+}
+
+
+
+
+
+
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid #f1f4f8;
+    border-radius: .375rem
+}
+
+.celebs_cards .card {
+    height: 300px;
+}
+
+
+.badge-primary{
+    background-image: linear-gradient(103deg, #E50984, #E38349);
+}
+
+
